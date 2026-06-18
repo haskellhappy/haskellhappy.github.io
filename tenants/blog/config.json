@@ -1,0 +1,55 @@
+{
+  "name": "Logbook",
+  "domains": ["www.softwaresaludable.com", "softwaresaludable.com"],
+  "layout": "blog",
+  "meta": {
+    "title": "Logbook — Programming in the Large",
+    "description": "Todo sobre como mejorar la durabilidad del codigo en aplicaciones complejas.",
+    "lang": "en"
+  },
+  "theme": {
+    "primary": "#00C5E8",
+    "heading": "#0C1A3E",
+    "body-text": "#3A5070",
+    "font-body": "'Open Sans', sans-serif",
+    "font-heading": "'Montserrat', sans-serif"
+  },
+  "stylesheets": [
+    "/blog/plugins/bulma/bulma.min.css",
+    "/blog/plugins/themify-icons/themify-icons.css",
+    "/blog/plugins/slick/slick.css",
+    "/blog/css/style.css"
+  ],
+  "scripts": [
+    "/blog/plugins/jQuery/jquery.min.js",
+    "/blog/plugins/slick/slick.min.js",
+    "/blog/js/script.js"
+  ],
+  "sections": ["nav", "main", "footer"],
+  "nav": {
+    "logo": "/blog/images/logo.png",
+    "logoAlt": "Logbook",
+    "links": [
+      { "label": "About", "href": "/blog/about.html" },
+      { "label": "Contact", "href": "/blog/contact.html" }
+    ]
+  },
+  "sidebar": {
+    "quickLinks": [
+      { "label": "About", "href": "/blog/about.html" },
+      { "label": "Contact", "href": "/blog/contact.html" }
+    ],
+    "socialLinks": [
+      { "label": "Twitter", "href": "#" },
+      { "label": "GitHub", "href": "#" }
+    ]
+  },
+  "footer": {
+    "description": "Todo sobre como mejorar la durabilidad del codigo en aplicaciones complejas (Programming in the large). Uso de herramientas de aceleración y gestión de proyectos para establecer y mantener el ritmo del equipo.",
+    "subscribe": {
+      "title": "Subscribe Newsletter",
+      "placeholder": "Your Email Address",
+      "buttonLabel": "Subscribe now"
+    }
+  }
+}
