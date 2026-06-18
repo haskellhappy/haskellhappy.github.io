@@ -1,0 +1,33 @@
+<section class="section testimonial">
+  <div class="container">
+    <div class="columns is-desktop">
+      <div class="column is-8-desktop">
+        <div class="heading">
+          <h2 class="mb-5">{{testimonials.title}}</h2>
+          <p>{{testimonials.subtitle}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="columns is-multiline">
+      <div class="column is-12 testimonial-wrap">
+        {{#each testimonials.items}}
+        <div class="testimonial-block">
+          <p>{{quote}}</p>
+          <div class="client-info is-flex is-align-items-center">
+            <div class="client-img">
+              <img src="{{avatar}}" alt="{{name}}" class="w-100">
+            </div>
+            <div class="info">
+              <h6>{{name}}</h6>
+              <span>{{location}}</span>
+            </div>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</section>
